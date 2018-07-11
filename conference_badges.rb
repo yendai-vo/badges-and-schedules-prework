@@ -12,6 +12,6 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  array.map! { |val| "Hello, my name is #{val}."}
-  array.map.each_with_index {|val, index| "Hello, #{val}! You'll be assigned to room #{(index + 1)}!"}
+  array.map! { |val| puts "Hello, my name is #{val}."}
+  array.map.each_with_index {|val, index| puts "Hello, #{val}! You'll be assigned to room #{(index + 1)}!"}
 end
